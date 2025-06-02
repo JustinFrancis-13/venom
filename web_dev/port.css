@@ -1,0 +1,75 @@
+*{
+      font-family:Georgia, 'Times New Roman', Times, serif;
+   
+}
+body{
+    margin: 0px;
+    font-size: 15px;
+}
+h1{
+    font-size: 2rem;
+}
+ header h1{
+    color: rgb(150, 185, 208);
+
+}
+header{
+    height: 100vh;
+   background: linear-gradient(to top,rgb(188, 25, 188),rgb(1, 96, 111))
+}
+.bu{
+    height: 40px;
+    width: 140px;
+    border-radius: 15px;
+    cursor: pointer;
+    }
+.bu:hover{
+    color: rgb(35, 27, 27);
+background: linear-gradient(to top,rgb(188, 25, 188),whitesmoke)
+}
+section{
+    height: 100vh;
+    border: 1px solid;
+    border-radius: 17px;
+    margin: 15px;
+}
+main{
+    padding: 20px;
+}
+.submit{
+    height: 30px;
+    width: 80px;
+ background-color: rgb(70, 70, 235);
+ border-radius: 5px;
+ cursor: pointer;
+
+}
+
+.submit:hover{
+    color: whitesmoke;
+    background-color: rgb(128, 118, 118);
+}
+input{
+    border-radius: 2px;
+    border: 2px solid lightgray;
+    height: 25px;
+}
+.top{
+     position: fixed;
+   bottom: 10px;
+   right: 10px;
+     height: 30px;
+    width: 80px;
+   background-color: rgb(70, 70, 235);
+   border-radius: 5px;
+   cursor: pointer;
+}
+  
+footer{
+    height: 100px;
+    background-color: black;
+}
+footer h3{
+    color: darkgray;
+    font-size: 10px;
+}

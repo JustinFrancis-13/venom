@@ -3,29 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Justin's Portfolio</title>
+    <link rel="stylesheet" href="port.css">
 </head>
 <body>
+    <header>
     <h1>Welcome to My Portfolio</h1>
-    <a href=""><button>About</button></a>
-    <a href=""><button>Skills</button></a>
-    <a href=""><button>Projects</button></a>
-    <a href=""><button>Contact</button></a>
+    <a href=""><button class="bu">About</button></a>
+    <a href=""><button class="bu">Skills</button></a>
+    <a href=""><button class="bu">Projects</button></a>
+    <a href=""><button class="bu">Contact</button></a>
+    </header>
     <hr>
+    <main>
+     <section id="about">
     <h1>Justin Francis Kuraganti</h1>
     <img src="just.jpeg" height="200px">
     <p>I am passionate about web development and enjoy creating user-friendly digital solutions. Currently, I am pursuing my B.Tech in Electronics and Communication Engineering at Anurag University. Alongside my studies, I’ve developed a strong interest in both software and technical aspects of development. I have gained skills in web technologies and am always eager to learn and grow. One of my main goals is to become a successful full-stack web developer and contribute meaningfully to the tech world.</p>
-    <hr>
+     </section>
+     <hr>
+     <section id="skills">
     <h1>My Skills</h1>
     <ol>
         <li>Python Basics</li>
         <li>HTML Basics</li>
         <li>CSS Basics</li>
         <li>Javacript Basics</li>
-    </ol>
-    <hr>
-
-    <h1>My Projects</h1>
+    </ol>  
+     </section>
+     <hr>
+     <section id="projects">
+     <h1>My Projects</h1>
     <table border="1">
         <tr>
             <th>Project</th>
@@ -39,8 +47,11 @@
             <td>Python Simple Calculator</td>
             <td>I have built a simple calculator in the course by Code with Swaroop</td>
         </tr>
-    </table>
-    
+    </table> 
+     </section>
+       <hr>
+     <section id="contact">
+      
     <h1>Contact Me</h1>
     <p>Feel free to contact me — I’m always open to new opportunities, collaborations, and conversations that spark innovation and creativity.</p>
     <form>
@@ -70,8 +81,14 @@
         <input type="text">
         <br>
         <br>
-        <button type="submit">Submit</button>        
-
+        <button type="submit" class="submit">Submit</button>  
+      
+     </section>
+    </main>
+      <button class="top">TOP &uarr;</button> 
+    <footer>
+         <h3>@ 2024 My Portfolio</h3>
+    </footer>
     </form>
 </body>
 </html>
